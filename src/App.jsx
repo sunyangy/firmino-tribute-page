@@ -16,7 +16,7 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Brand />
+      {/* <Brand /> */}
       <WhatPlayer />
       <Features />
       <Possibility />

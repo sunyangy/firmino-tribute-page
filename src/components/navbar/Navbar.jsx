@@ -12,13 +12,10 @@ const Menu = () => {
         <a href="#whatishe">Who is He</a>
       </p>
       <p>
-        <a href="#openai">Open AI</a>
+        <a href="#abouthe">about he</a>
       </p>
       <p>
-        <a href="#home">Case Studies</a>
-      </p>
-      <p>
-        <a href="#home">Library</a>
+        <a href="#blogs">blog</a>
       </p>
     </>
   );

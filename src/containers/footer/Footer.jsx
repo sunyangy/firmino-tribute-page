@@ -6,13 +6,14 @@ const Footer = () => {
     <div className="player__footer section__padding">
       <div className="player__footer-heading">
         <h1 className="gradient__text">
-          Do you want to step in to the future before others
+          你想要成为利物浦球迷的一员吗
         </h1>
-        <button type="button">Request Early Access</button>
+        <button type="button">赶 快 点 击 加 入</button>
       </div>
       <div className="player__footer-links">
         <div className="player__footer-links-logo">
-          <img src={logo} alt="" />
+          {/* <img src={logo} alt="" /> */}
+          <h2 style={{margin: '0rem 0 1rem'}}>liverpool</h2>
           <p>
             Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
           </p>
