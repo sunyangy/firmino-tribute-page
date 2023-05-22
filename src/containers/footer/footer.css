@@ -1,0 +1,122 @@
+.player__footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--color-footer);
+}
+
+.player__footer-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player__footer-heading h1 {
+  margin-bottom: 4rem;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.player__footer-heading button {
+  display: block;
+  padding: 1rem;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  background-color: var(--color-footer);
+  cursor: pointer;
+}
+
+.player__footer-links {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.player__footer-links-logo {
+      width: 250px;
+    margin: 1rem;
+}
+
+.player__footer-links-logo img {
+  margin-bottom: 1rem;
+}
+.player__footer-links-logo p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.player__footer-links_div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.player__footer-links_div h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 1rem;
+}
+
+.player__footer-links_div p {
+  padding: 1rem 0;
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.player__footer-copyright {
+  margin-top: 4rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 850px) {
+    .player__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .player__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .player__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .player__footer-heading button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .player__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}

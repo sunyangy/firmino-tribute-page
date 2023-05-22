@@ -26,6 +26,11 @@
   height: 100%;
 }
 
+.player__navbar-links-logo h2 {
+  line-height: 12px;
+  cursor: pointer;
+}
+
 .nav-menu {
   display: flex;
   flex-direction: row;
